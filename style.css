@@ -110,11 +110,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 0%;
+    overflow: hidden;
   }
 
-  body,
   html {
-    height: 100%;
     overflow: hidden;
   }
 
@@ -202,7 +202,7 @@
     color: white;
     font-weight: 700;
     font-family: Montserrat;
-    font-size: 1rem;
+    font-size: 1 rem;
   }
 
   .add-btn:hover {
